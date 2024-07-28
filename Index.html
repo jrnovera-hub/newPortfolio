@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="container-fluid">
+        <div class="row align-items-center text-end">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 mt-3 ">
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-lg-start navbutton">
+                    <li class="me-3"><a href="#contact" style="text-decoration: none;"><h5>Contact me</h5></a></li>
+                    <li class="me-3"><a href="#education" style="text-decoration: none;"><h5>Education</h5></a></li>
+                    <li class="me-3 navbutton"><a href="#aboutme" style="text-decoration: none;"><h5>About me</h5></a></li>
+                    <li class="me-3"><a href="#portfolio" style="text-decoration: none;"><h5>Portfolio</h5></a></li>
+                    <li class="me-3"><a href="#home" style="text-decoration: none;"><h5>Home</h5></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 mt-2 text-center text-lg-end">
+                <button class="btn-top">
+                    <!-- <i class="bi bi-moon" id="icon"></i> -->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="icon">
+                        <label class="form-check-label" for="icon" id="themeLabel">Dark Theme</label>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 text-center text-lg-start text-lg-center">
+                <h6 class="hicolor">Hi, I am</h6>
+                <h5 class="hicolor">Jr Novera</h5>
+                <h1 class="gradient-text">Web and Mobile Developer</h1>
+                <p>
+                    <i class="fas fa-camera"></i> 
+                    <i class="fab fa-facebook ms-2"></i> 
+                    <i class="fas fa-heart ms-2"></i> 
+                </p>
+                <div><button class=" btn-top">Hire Me</button> <button class="download-cv"><a href="latestCV.pdf" download="My_CV.pdf" style="color:#959595">Download CV</a></button></div> 
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                <img src="ImageOfme.jpg" alt="Jr Novera" class="img-fluid pictureko" >
+            </div>
+        </div>
+        
+        <!-- Skills -->
+         
+        <section class="container" id="myskills">
+            <h1 class="text-center skills-section gradient-text">Skills</h1>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="fbi bi-filetype-css gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>CSS</h4>
+                            <p class="card-text">Styling websites with cascading style sheets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-filetype-sql gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>MySQL</h4>
+                            <p class="card-text">Managing databases with SQL queries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-github gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>GitHub</h4>
+                            <p class="card-text">Version control and code collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-git gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>Git Bash</h4>
+                            <p class="card-text">Command line interface for Git operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-filetype-html gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>HTML</h4>
+                            <p class="card-text">Structuring web pages with HyperText Markup Language.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-filetype-js gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>JavaScript</h4>
+                            <p class="card-text">Scripting dynamic behavior on web pages.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-filetype-jsx gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>React JS</h4>
+                            <p class="card-text">Building interactive UIs with React.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-filetype-php gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>PHP</h4>
+                            <p class="card-text">Server-side scripting for web development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="fa-solid fa-database gradient-text mt-5" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>MongoDB</h4>
+                            <p class="card-text">NoSQL database for modern applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-vinyl gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>OutSystems</h4>
+                            <p class="card-text">Low-code platform for rapid application development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="bi bi-joystick gradient-text" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>Postman</h4>
+                            <p class="card-text">API testing and development tool.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 rows">
+                    <div class="card">
+                        <i class="fa-brands fa-node-js gradient-text mt-5" style="font-size: 100px;"></i>
+                        <div class="card-body">
+                            <h4>Node.js</h4>
+                            <p class="card-text">JavaScript runtime for server-side programming.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+           <!-- educaton -->
+            <div class="mt-5" id="education">
+                <h1  class=" gradient-text">Education</h1>
+            </div>
+            <div class="educ">
+                    
+                <div>
+                    <h4>Ramon Magsaysay technological University</h4>
+                        <h6>Bachelor of Computer Science</h6>
+                            <h6>2014</h6>
+                </div>
+                <div>
+                    <h4>Zuitt Cooding Bootcamp</h4>
+                        <h6>Fullstack Developer</h6>
+                        <H6>2023-2024</H6>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+    <!-- about me -->
+    <div class="aboutme container" id="aboutme">
+        <h1 class="gradient-text">About Me</h1>
+        
+        <p style="color:#959595"> may past working experience is in solar philippines i work there about 1 year as a land survey associate   after my end of contract , i work as a freelance in realestate i work as a freelance realestate for 2 years .  
+            
+            i am a versatile developer on traditional web devleopement and low code web dev like outsystem
+            i know the basic of js react and express and basic of php , i know also to use mongo db my sql and postman for testing  i also know how to use git</p>
+            
+            
+            
+    </div>
+
+    <div>
+        <h1 class="text-center mt-5 mb-5 gradient-text" id="portfolio">My Portfolio</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="img/newbaboy copy.PNG" class="images img-fluid" alt="">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="img/project2port.PNG" class="images img-fluid" alt="">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="img/projectCapstone.PNG" class="images img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    
+        
+    </div>
+
+    <!-- contact me -->
+     <div style="text-align: center;">
+        <h1 class="mt-5">Contact Me</h1>
+        <p>Cultivating Connection: Reach Out And Connect With Me</p>
+     </div>
+     
+     <div>
+        <form action="">
+            <div class="row">
+               
+                <!-- fisrt row -->
+             <div class="col-sm-12 col-md-12 col-lg-12 firstrow">
+                <div>
+                   <input type="text" name="" id="" placeholder="Name"  class="formbackground">
+                </div>
+                <div>
+                    <input type="number" name="" id="" placeholder="Number"  class="formbackground">
+                </div>
+                <div>
+                    <input type="text" name="" id="" placeholder="Timeline"  class="formbackground"> 
+                </div>
+                    <input type="email" name="email" placeholder="@email" class="formbackground">
+                 </div>
+                 
+                 <div>
+                    
+                 </div>
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn-top">Submit</button>
+            </div>
+                  
+              
+            </div>
+        </form>
+     </div>
+     <!-- footer -->
+      
+     <div class="container text-center mt-5" id="contact">
+        <h1>Jr Novera</h1>
+    </div>
+    <div class="container text-center mt-3">
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
+            <li class="me-3">Contact me</li>
+            <li class="me-3">Education</li>
+            <li class="me-3">About me</li>
+            <li class="me-3">Portfolio</li>
+            <li class="me-3">Home</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center;">
+        <i class="bi bi-linkedin me-1"></i>
+        <i class="bi bi-meta me-1"></i>
+        <i class="bi bi-instagram me-1"></i>
+    </div>
+   
+    
+
+    <!--  -->
+<div class="text-center"> 
+    <i class="bi bi-telephone me-3"> 09071057750</i>
+    <i class="bi bi-envelope"> jrnovera@gmail.com</i></div>
+   <br>
+   <br>
+</body>
+
+<script>
+
+    // var icon =document.getElementById("icon");
+    // icon.onclick = function(){
+    //     document.body.classList.toggle("light-theme");
+    //     if(document.body.classList.contains("light-theme")){
+    //         icon.input =""
+    //     }
+    // }
+    var icon = document.getElementById("icon");
+        var themeLabel = document.getElementById("themeLabel");
+
+        icon.onclick = function() {
+            document.body.classList.toggle("light-theme");
+            document.body.classList.toggle("dark-theme");
+
+            if (document.body.classList.contains("light-theme")) {
+                themeLabel.textContent = "Dark Theme";
+            } else {
+                themeLabel.textContent = "Light Theme";
+            }
+        }
+
+        // Set initial theme based on the checkbox state
+        if (icon.checked) {
+            document.body.classList.add("light-theme");
+            themeLabel.textContent = "Dark Theme";
+        } else {
+            document.body.classList.add("dark-theme");
+            themeLabel.textContent = "Light Theme";
+        }
+    </script>
+</script>
+</html>
